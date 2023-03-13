@@ -16,6 +16,9 @@ const Cart = (props) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
+  const cartOrderItemsHandler = () => {
+    alert("Order Done");
+  };
   const CartItems = (
     <ul className={classes["cart-items"]}>
       {cartCtx.items.map((item) => (
@@ -41,7 +44,11 @@ const Cart = (props) => {
         <button className={classes["button--alt"]} onClick={props.onHidden}>
           Close
         </button>
-        {hasItems && <button className={classes.button}>Order</button>}
+        {hasItems && (
+          <button className={classes.button} onClick={cartOrderItemsHandler}>
+            Order
+          </button>
+        )}
       </div>
     </Modal>
   );

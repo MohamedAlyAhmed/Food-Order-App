@@ -31,3 +31,17 @@ button {
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
