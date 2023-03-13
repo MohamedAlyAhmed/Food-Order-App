@@ -1,6 +1,9 @@
 # Food Order App
 This is a React project for a food ordering application that allows users to select food items, specify the quantity, and place an order. The application has a user-friendly interface that enables customers to easily select food items.
 
+## Live Demo
+[Click me to go to Live Demo](https://mohamedalyahmed.github.io/Food-Order-App/)
+
 ## 🚀 Getting Started
 ### To run the application locally, you will need to have Node.js and npm installed on your machine.
 
